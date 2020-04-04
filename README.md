@@ -48,7 +48,7 @@ Four tips I found when creating this:
 4. Lastly, check to see the number of credits left and make sure your PDF actually contains tables/actually exists in the directory. Testing a few different PDF examples is a good way of isolating whether the problem is with your code or file.
 
 **Is there a script for just converting one file?**
-- Yeah there is an example script from the official site but I'd just include one PDF within the folder to achieve the same thing.
+Yeah there is an example script from the official site (I've uploaded it as single-pdf-example.py) but I'd just include one PDF within the folder to achieve the same thing. The blog post is here - https://pdftables.com/blog/pdf-to-excel-with-python
 
 **Are there any other (free) Python libraries or methods to extract tables from PDFs to Excel?**
 
