@@ -8,7 +8,7 @@ api = "abcdefghijkl"
 request = "https://pdftables.com/api/remaining?key="
 query = request+api
 
-# Stuff I didn't do. Note script looks for PDFs to convert relative to where it runs i.e. this script should be saved in the same folder as the PDFs you want to convert
+# Stuff I didn't do. Note script looks for PDFs to convert relative to where it runs i.e. this script should be saved in the same folder as the PDFs with tables you want to extract
 
 c = pdftables_api.Client(api)
 
