@@ -38,18 +38,20 @@ Using PIP3 or whatever you will need to install OS, Requests and pdftables_api.O
 **The Script encoutners an error; do you have any other troubleshooting advice?**
 
 
-1. Two generic tips I have is to check which version of Python and PIP you are running. Assumig you have old version of Python installed you shoudl specific PIP3 when installing anything, and execue Python3 just to be sure. 
-2. Next tip is to check trailing slashes on folder locations, make sure this is correct. It's easy to get confused between forward and backward slashes, and where they shouldbe referencing a folder path.
-3. Lastly, check to see the number of credits left and make sure your PDF actually contains tables/actually exists in the directory. Testing a few different PDF examples is a good way of isolating whether the problem is with your code or file.
-4. Oh shit, lastly check the file extension name
+1. Check the file extension name. Current script is capitalised PDF. Try changing it to lowercase or upating the files.
 
+2. Check which version of Python and PIP you are running. Assumig you have old version of Python installed you should specify PIP3 when installing anything, and execute Python3 just to be sure. 
+
+3. Next tip is to check trailing slashes on folder locations, make sure this is correct. It's easy to get confused between forward and backward slashes, and where they shouldbe referencing a folder path.
+
+4. Lastly, check to see the number of credits left and make sure your PDF actually contains tables/actually exists in the directory. Testing a few different PDF examples is a good way of isolating whether the problem is with your code or file.
 
 **Is there a script for just converting one file?**
-- Yeah they give an example for that as well, let me find that script and upload it soon...
+- Yeah there is an example script from the official site but I'd just include one PDF within the folder to achieve the same thing.
 
 **Are there any other (free) Python libraries or methods to extract tables from PDFs to Excel?**
 
-I was able to find one or two other examples which were open source/free, however I couldn't get them to work out of the box very easily.
+I was able to find one or two other examples which were open source/free, however I couldn't get them to work out of the box very easily. This article covers them http://theautomatic.net/2019/05/24/3-ways-to-scrape-tables-from-pdfs-with-python/. For me Tabula Py appeared to be the most promising however I had issues installing and running the Java layer required https://github.com/chezou/tabula-py
 
 ## How else could this script be improved
 
