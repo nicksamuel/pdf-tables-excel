@@ -22,18 +22,21 @@ Hopefully someone else will find this script ever so slightly more useful than t
 ## FAQs
 
 - **How many credits does 1 pdf cost?**
+
 It's actually done on a page by page basis, so 1 page = 1 credit.
 
 - **What depencneis do I need to install?**
+
 Using PIP3 or whatever you will need to install OS, Requests and pdftables_api.
 
 - **I can't install pdftables_api**
+
 Yeah it sucks
 
-**Is there a script for just converting one file?**
+- **Is there a script for just converting one file?**
 - Yeah they give an example for that as well, let me find that script and upload it soon...
 
-**Are there any other (free) Python libraries or methods to extract tables from PDFs to Excel?**
+- **Are there any other (free) Python libraries or methods to extract tables from PDFs to Excel?**
 
 I was able to find one or two other examples which were open source/free, however I couldn't get them to work out of the box very easily.
 
