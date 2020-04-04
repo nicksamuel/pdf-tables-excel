@@ -18,7 +18,7 @@ for file in os.listdir(file_path):
     if file.endswith(".PDF"):
         c.xlsx(os.path.join(file_path,file), file+'.xlsx')
 
-# Nick API Credits - This will print the remaining API credits in terminal or Python Console after conversion. I needed to know this and worked out a quick way of displaying the info
+# Nick API Credits - This will print the remaining API credits in terminal or console after conversion. I needed to know this and worked out a quick way of displaying the info
 credits = requests.get(query)
 
 print(credits.text)
