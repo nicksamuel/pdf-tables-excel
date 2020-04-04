@@ -4,9 +4,7 @@ This is a modified version of the example API sript from  https://pdftables.com/
 
 I needed to extract loads of tables from a few years worth of bank statements from a bank account I no longer have access to.
 
-Well I do legally have access to old bank statements but I can't remember any of my old online membership detals, which is why I downloaded all the PDFs when I closed the account.
-
-Instead of phoning up the customer help line (Zzzz) or having to manually copying + pasting this info I thought I'd put my limited Python skillz to use (Shout out to Al Sweigart/Automate The Boring Stuff).
+Instead of phoning up the customer help line (Zzzz) or having to manually copying + pasting this info I thought I'd put my limited Python skillz to use (Shout out to Al Sweigart - https://automatetheboringstuff.com/).
 
 Hopefully someone else will find this script ever so slightly more useful than the default example...
 
