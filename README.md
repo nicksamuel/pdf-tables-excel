@@ -62,7 +62,3 @@ I'm done with it for now so don't have the motivation but I think it could be im
 - https://github.com/pdftables/python-pdftables-api 
 
 - https://requests.readthedocs.io/en/master/
-
-
-
-
