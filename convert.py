@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import pdftables_api
 import os
 import requests
@@ -24,5 +22,3 @@ for file in os.listdir(file_path):
 credz = requests.get(query)
 
 print(credz.text)
-
-input("Press enter to exit ;)")
