@@ -6,7 +6,7 @@ I needed to extract loads of tables from a few years worth of bank statements fr
 
 Instead of phoning up the customer help line (Zzzz) or having to manually copying + pasting this info I thought I'd put my limited Python skillz to use (Shout out to Al Sweigart - https://automatetheboringstuff.com/).
 
-Hopefully someone else will find this script ever so slightly more useful than the default example...
+Hopefully someone will find this script useful...
 
 ## Quick Start Guide
 
@@ -36,9 +36,12 @@ Using PIP3 or whatever you will need to install OS, Requests and pdftables_api.O
  I had to download it and then install it from https://github.com/pdftables/python-pdftables-api/tree/master/pdftables_api.
 
 **The Script encoutners an error; do you have any other troubleshooting advice?**
-Two generic tips I have is to check which version of Python and PIP you are running. Assumig you have old version of Python installed you shoudl specific PIP3 when installing anything, and execue Python3 just to be sure. Next tip is to check trailing slashes on folder locations, make sure this is correct. It's easy to get confused between forward and backward slashes, and where they shouldbe referencing a folder path.
 
-Lastly, check to see the number of credits left and make sure your PDF actually contains tables/actually exists in the directory. Testing a few different PDF examples is a good way of isolating whether the problem is with your code or file.
+
+1. Two generic tips I have is to check which version of Python and PIP you are running. Assumig you have old version of Python installed you shoudl specific PIP3 when installing anything, and execue Python3 just to be sure. 
+2. Next tip is to check trailing slashes on folder locations, make sure this is correct. It's easy to get confused between forward and backward slashes, and where they shouldbe referencing a folder path.
+3. Lastly, check to see the number of credits left and make sure your PDF actually contains tables/actually exists in the directory. Testing a few different PDF examples is a good way of isolating whether the problem is with your code or file.
+4. Oh shit, lastly check the file extension name
 
 
 **Is there a script for just converting one file?**
@@ -48,6 +51,9 @@ Lastly, check to see the number of credits left and make sure your PDF actually 
 
 I was able to find one or two other examples which were open source/free, however I couldn't get them to work out of the box very easily.
 
+## How else could this script be improved
+
+I'm done with it for now so don't have the motivation but I think it could be improved by ensuring the PDF file type match rule does both lower and upper case for ease of use. Also there could be more done in terms of credits usage e.g. before and after, how much running it will cost etc. and maybe a confirmation prompt.
 
 ## Useful Links
 
