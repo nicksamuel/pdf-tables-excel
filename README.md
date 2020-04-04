@@ -51,11 +51,15 @@ Using PIP3 or whatever you will need to install OS, Requests and pdftables_api.O
 
 **Are there any other (free) Python libraries or methods to extract tables from PDFs to Excel?**
 
-I was able to find one or two other examples which were open source/free, however I couldn't get them to work out of the box very easily. This article covers them http://theautomatic.net/2019/05/24/3-ways-to-scrape-tables-from-pdfs-with-python/. For me Tabula Py appeared to be the most promising however I had issues installing and running the Java layer required https://github.com/chezou/tabula-py
+I was able to find one or two other examples which were open source/free, however I couldn't get them to work out of the box very easily. This article covers them http://theautomatic.net/2019/05/24/3-ways-to-scrape-tables-from-pdfs-with-python/. 
+
+For me Tabula Py appeared to be the most promising however I had issues installing and running the Java layer required https://github.com/chezou/tabula-py
 
 ## How else could this script be improved
 
-I'm done with it for now so don't have the motivation but I think it could be improved by ensuring the PDF file type match rule does both lower and upper case for ease of use. Also there could be more done in terms of credits usage e.g. before and after, how much running it will cost etc. and maybe a confirmation prompt.
+I'm done with it for now so don't have the motivation but I think it could be improved by ensuring the PDF file type match rule does both lower and upper case for ease of use.
+
+Also there could be more done in terms of credits usage e.g. before and after, how much running it will cost etc. and maybe a confirmation prompt.
 
 ## Useful Links
 
