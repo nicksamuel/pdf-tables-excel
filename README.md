@@ -23,17 +23,17 @@ Hopefully someone else will find this script ever so slightly more useful than t
 
 The underlying Python code will work for sure, my bash script wrapper perhaps not. I currently use Ubuntu so I'm not sure on how other systems and Python work together. My limited experience is that Mac is very similar as it's UNIX whereas Windows command line and installation is slightly different.
 
-**How many credits does 1 pdf cost?**
+**How many PDFs/tables does does 1 pdf cost?**
 
 It's actually done on a page by page basis, so 1 page = 1 credit. I thought this didn't seem particularly fair to be honest, but then realised someone could concatenate a massive PDF with hundreds of pages and potentially rinse their servers at the cost of 1 credit...
 
 **What depencneis do I need to install?**
 
-Using PIP3 or whatever you will need to install OS, Requests and pdftables_api.OS and requests might be isntalled by default depending on your Python environment/IDE or can be instaleld using PIP/Python Package Index. PDFtables_API is slightly different..
+Using PIP3 or whatever you will need to install OS, Requests and pdftables_api.OS and requests might be isntalled by default depending on your Python environment/IDE or can be installed using PIP/Python Package Index. PDFtables_API is slightly different..
 
-**I can't install pdftables_api**
+**I can't install pdftables_api using PIP/ Python Package Index (PyPI) repository... **
 
-If I recall correctly, I had to download and install this module from https://github.com/pdftables/python-pdftables-api/tree/master/pdftables_api.
+ I had to download it and then install it from https://github.com/pdftables/python-pdftables-api/tree/master/pdftables_api.
 
 **The Script encoutners an error; do you have any other troubleshooting advice?**
 Two generic tips I have is to check which version of Python and PIP you are running. Assumig you have old version of Python installed you shoudl specific PIP3 when installing anything, and execue Python3 just to be sure. Next tip is to check trailing slashes on folder locations, make sure this is correct. It's easy to get confused between forward and backward slashes, and where they shouldbe referencing a folder path.
@@ -56,5 +56,7 @@ I was able to find one or two other examples which were open source/free, howeve
 - https://github.com/pdftables/python-pdftables-api 
 
 - https://requests.readthedocs.io/en/master/
+
+
 
 
