@@ -1,6 +1,6 @@
 # PDF To Excel Table Extractor using API + Python
 
-This is a modified version of the example API sript from  https://pdftables.com/.
+This is a modified version of the example API script from  https://pdftables.com/.
 
 I needed to extract loads of tables from a few years worth of bank statements from a bank account I no longer have access to.
 
